@@ -1,0 +1,62 @@
+
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 43px;
+}
+
+.heading{
+  text-align: center;
+  color: #ddd;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+.input:focus{
+  outline: none;
+}
+.note-input input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.note-input button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.notes {
+  display: grid;
+  gap: 8px;
+}
+
+
+.note {
+  background-color: #f2f2f2;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.note button.btn-delete {
+  padding: 5px 5px;
+  border: none;
+  background-color: rgb(86, 85, 85);
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
